@@ -23,7 +23,6 @@ def clear(): return system('cls')
 # windll.kernel32.SetConsoleTitleW('LegionNetwork Auto Reger | by overgoodman&NAZAVOD')
 logger.remove()
 logger.add(stderr, format="<white>{time:HH:mm:ss}</white> | <level>{level: <8}</level> | <cyan>{line}</cyan> - <white>{message}</white>")
-
 refferalCode = str(input('Введите ваш реферальный код: '))
 threads = int(input('Количество потоков: '))
 use_proxy = str(input('Использовать Proxy? (y/N): '))
